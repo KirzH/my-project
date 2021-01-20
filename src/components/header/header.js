@@ -21,6 +21,15 @@ const Header = () => {
                             duration={500}>
                            О нас
                        </Link >
+                       <Link className="ourWork"
+                            activeClass="active"
+                            to="ourWork"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                           Наши работы
+                       </Link >
                        <Link className="price"
                              activeClass="active"
                              to="price"

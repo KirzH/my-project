@@ -7,5 +7,32 @@
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.data {
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:inherit;
+    font-weight: 500;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family:serif;
+    text-align: center;
+}
+
+.aboutUs {
+    padding-right: 15px;
+}
+
+.ourWork {
+    padding-right: 15px;
+}
+
+.price {
+    padding-right: 15px;
 }
