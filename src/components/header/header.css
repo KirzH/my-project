@@ -1,0 +1,11 @@
+.header-app {
+    color: #ffffff;
+    background-image: url(https://www.fonstola.ru/pic/201503/1920x1080/fonstola.ru-170147.jpg); 
+    background-repeat: no-repeat;
+    height: 625px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
