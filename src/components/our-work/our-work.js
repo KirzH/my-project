@@ -1,12 +1,12 @@
 import React from 'react';
-import CarouselBox from './component/carousel-box'
+import ImageSlider from './components/image-slider';
 
 import './our-work.css';
 
 const OurWork = () => {
     return (
         <div className="boxWork" id="ourWork">
-            <CarouselBox />
+            <ImageSlider />
         </div>
     );
 };
