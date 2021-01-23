@@ -1,6 +1,7 @@
 .header-app {
     color: #ffffff;
-    background-image: url(https://www.fonstola.ru/pic/201503/1920x1080/fonstola.ru-170147.jpg); 
+    background-image: url(https://www.fonstola.ru/pic/201503/1920x1080/fonstola.ru-170147.jpg);
+    background-position:left; 
     background-repeat: no-repeat;
     height: 625px;
 }
@@ -16,6 +17,8 @@
     font-size: 18px;
     font-family:inherit;
     font-weight: 500;
+    cursor:pointer;
+    text-decoration: turquoise;
 }
 
 .logo {
