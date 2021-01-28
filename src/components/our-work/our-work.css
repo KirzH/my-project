@@ -1,4 +1,7 @@
 .boxWork {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
     height: 625px;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(255, 255, 255);
 }
