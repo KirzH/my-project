@@ -1,7 +1,8 @@
 .slider {
     display: flex;
-    position: relative;
+    /* position: absolute; */
     height: 100%;
+    width: 100%;
 }
 
 .image {
@@ -16,7 +17,7 @@
 
 .rightArow {
     display: flex;
-    position: absolute;
+    position:absolute;
     margin-top: 200px;
     margin-right: 150px;
     right: 32px;
@@ -29,7 +30,7 @@
 
 .leftArow {
     display: flex;
-    position: absolute;
+    position:absolute;
     margin-top: 200px;
     margin-left: 655px;
     left: 32px;

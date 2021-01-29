@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import Navbar from '../app-burger/app-burger';
 
 import './header.css';
 
@@ -10,8 +11,10 @@ const Header = () => {
                 <div className="logo">
                     <h1>СпецМонтаж<br />Люкс</h1>
                 </div>
+                
                 <div className="data">
-                    <ul>
+                <Navbar />
+                    {/* <ul>
                       <Link className="aboutUs"
                             activeClass="active"
                             to="aboutUs"
@@ -48,7 +51,7 @@ const Header = () => {
                              duration={500}>
                          Контакты
                        </Link >
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
             <div><h1>header</h1></div>
